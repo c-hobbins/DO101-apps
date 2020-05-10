@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'This is version 2 of the app.' + '\n';
+    response = 'This is version 3 of the app.' + '\n';
 
     //send the response to the client
     res.send(response);
@@ -14,7 +14,7 @@ app.get('/', function (req, res) {
 
 app.get('/resource', function (req, res) {
 
-  response = 'This is a new resource added to the lab application...' + '\n';
+  response = 'This is a new resource (v3) added to the lab application...' + '\n';
 
   //send the response to the client
   res.send(response);
